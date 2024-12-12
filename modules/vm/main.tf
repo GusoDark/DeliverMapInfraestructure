@@ -100,6 +100,7 @@ resource "azurerm_network_interface" "DM-NIC" {
 }
 
 # Crear la maquina virtual
+# variables para la maquina virtual
 resource "azurerm_linux_virtual_machine" "DM-VM" {
   name                  = "${var.server_name}-${var.environment}"
   resource_group_name   = azurerm_resource_group.DM_RG.name
