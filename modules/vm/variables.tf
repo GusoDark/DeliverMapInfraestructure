@@ -1,4 +1,5 @@
 # Definimos las variables que vamos a utilizar
+# varaibles tf
 variable "resource_group" {
   type = string
 }
