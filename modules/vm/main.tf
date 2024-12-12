@@ -137,7 +137,7 @@ resource "azurerm_linux_virtual_machine" "DM-VM" {
       host        = self.public_ip_address
     }
   }
-
+//uso de la temrinal para ver que si construya bien todo
   provisioner "remote-exec" {
     inline = [
       "sudo su -c 'mkdir -p /home/${var.admin_username}'",
