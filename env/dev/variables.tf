@@ -40,3 +40,6 @@ variable "MONGO_INITDB_ROOT_USERNAME" {
 variable "MONGO_INITDB_ROOT_PASSWORD" {
   type = string
 }
+
+
+//verificacion de tipos de variables

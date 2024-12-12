@@ -24,4 +24,3 @@ module "dev_vm" {
 }
 
 
-//corrección de error main.tf y verificacion de estado
