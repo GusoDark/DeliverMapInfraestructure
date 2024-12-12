@@ -18,3 +18,5 @@ provider "azurerm" {
 
   }
 }
+
+//verificacion de los provoders que si funcione bien 
