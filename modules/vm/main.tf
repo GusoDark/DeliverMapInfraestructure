@@ -185,3 +185,4 @@ resource "null_resource" "init_docker" {
   }
 }
 
+//Creacion de la asociacion entre subnet y security groups
