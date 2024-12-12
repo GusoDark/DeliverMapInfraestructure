@@ -153,7 +153,7 @@ resource "azurerm_linux_virtual_machine" "DM-VM" {
       "sudo su -c 'echo \"MAIL_SECRET_KEY=${var.mail_secret_key}\" >> /home/${var.admin_username}/.env '",
       "sudo su -c 'echo \"MAPBOX_ACCESS_TOKEN=${var.mapbox_access_token}\" >> /home/${var.admin_username}/.env '",
       "sudo su -c 'echo \"MAIL_SERVICE=${var.mail_service}\" >> /home/${var.admin_username}/.env '",
-      "sudo su -c 'echo \"MAIL_USER=${var.mail_service}\" >> /home/${var.admin_username}/.env '",
+      "sudo su -c 'echo \"MAIL_USER=${var.mail_user}\" >> /home/${var.admin_username}/.env '",
       "sudo su -c 'echo \"MONGO_INITDB_ROOT_USERNAME=${var.mongo_init_root_username}\" >> /home/${var.admin_username}/.env '",
       "sudo su -c 'echo \"MONGO_INITDB_ROOT_PASSWORD=${var.mongo_init_root_password}\" >> /home/${var.admin_username}/.env '",
       "sudo su -c 'echo \"DOMAIN=${var.domain}\" >> /home/${var.admin_username}/.env '",
