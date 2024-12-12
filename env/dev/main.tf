@@ -22,3 +22,6 @@ module "dev_vm" {
   ip_name                  = "DM-IP-TeamVii"   # Modificado
   vnet_name                = "DM-VNET-TeamVii" # Modificado
 }
+
+
+//corrección de error main.tf y verificacion de estado
