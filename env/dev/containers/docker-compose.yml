@@ -56,3 +56,5 @@ services:
     volumes:
       - /volumes/mongo/data:/data/db
 
+
+#revicion de docker-compose.yml
